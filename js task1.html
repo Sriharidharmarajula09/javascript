@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //problem1
+  var a=prompt("enter your name");
+  alert("hello...!" +a+ "welcome to our wedsite");
+  //problem2
+ var a=+prompt("enter the first number");
+  var b=+prompt("enter the second number");
+  var c=prompt("ener the operator(+,-,*,/)");
+  var d= c=="+"?a+b :c=="-"?a-b :c=="*"?a*b :c=="/"?a/b:"false";
+  alert(a+""+c+""+b+"="+d);
+
+  //problem3
+  var a=prompt("enter your age");
+  var old=a>=18?"you're eligible to vote":"you're not eligible to vote";
+  console.log(old);
+  alert(old);
+
+  //problem4
+  var a=prompt("enter the tempature in celsius");
+  var f=(a*9/5)+32;
+  alert(a+"c is equals to " +f+ "f.");
+
+  //problem5
+  var a=prompt("enter a value");
+  var res=a%2==0?"it is a even number":"it is an odd number";
+  console.log(res);
+  alert(res);
+
+ //problem6
+ var a=prompt("enter your password");
+ var res=a==224455?"access granted":"access denied";
+ console.log(res);
+ alert(res);
+  
+    </script>
+</body>
+</html>
